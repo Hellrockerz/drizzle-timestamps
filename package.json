@@ -4,11 +4,25 @@
   "description": "Drizzle ORM plugin for auto timestamps and soft delete functionality",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hellrockerz/drizzle-timestamps"
+  },
+  "bugs": {
+    "url": "https://github.com/Hellrockerz/drizzle-timestamps/issues"
+  },
+  "homepage": "https://github.com/Hellrockerz/drizzle-timestamps#readme",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["drizzle", "orm", "plugin", "timestamp", "soft-delete"],
+  "keywords": [
+    "drizzle",
+    "orm",
+    "plugin",
+    "timestamp",
+    "soft-delete"
+  ],
   "author": "Mukul Gautam <GitHub:Hellrockerz>",
   "license": "MIT",
   "dependencies": {
