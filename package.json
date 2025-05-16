@@ -1,0 +1,20 @@
+{
+  "name": "drizzle-timestamps",
+  "version": "1.0.0",
+  "description": "Drizzle ORM plugin for auto timestamps and soft delete functionality",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["drizzle", "orm", "plugin", "timestamp", "soft-delete"],
+  "author": "Mukul Gautam",
+  "license": "MIT",
+  "dependencies": {
+    "drizzle-orm": "^0.43.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
