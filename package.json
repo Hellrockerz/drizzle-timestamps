@@ -9,7 +9,7 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": ["drizzle", "orm", "plugin", "timestamp", "soft-delete"],
-  "author": "Mukul Gautam",
+  "author": "Mukul Gautam <GitHub:Hellrockerz>",
   "license": "MIT",
   "dependencies": {
     "drizzle-orm": "^0.43.1"
